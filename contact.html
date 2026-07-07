@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Test The Heather & Stone to book a table, inquire about private dining, or order gift vouchers.">
+    <title>Contact Us | Test The Heather & Stone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">Test The Heather & Stone</div>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Menu & Offerings</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </nav>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <nav class="mobile-nav" id="mobileNav">
+        <a href="index.html" class="mobile-nav-link">Home</a>
+        <a href="services.html" class="mobile-nav-link">Menu & Offerings</a>
+        <a href="contact.html" class="mobile-nav-link">Contact</a>
+    </nav>
+
+    <section class="contact-hero">
+        <div class="contact-hero-content">
+            <h1>Get in Touch</h1>
+            <p>Reserve your table, inquire about private dining, or order a gift voucher.</p>
+        </div>
+    </section>
+
+    <section class="contact-info">
+        <div class="contact-info-container">
+            <p>Contact us directly to reserve your table, inquire about private dining, or order a gift voucher. Call us at <a href="tel:+353851273548">+353 851 273 548</a> or email <a href="mailto:info@rapidsites.eu">info@rapidsites.eu</a>. We're located in A67W3V9 and open Monday to Friday, 9am to 5pm.</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-form-wrapper">
+                <h2>Send us a Message</h2>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">Send Message</button>
+                </form>
+                <div id="formMessage" class="form-message"></div>
+            </div>
+
+            <div class="booking-wrapper">
+                <h2>Book Your Table Online</h2>
+                <p>Use our online booking system to reserve your table instantly.</p>
+                <a href="https://calendly.com" target="_blank" class="cta-button">Open Calendly Booking</a>
+
+                <h2 style="margin-top: 3rem;">Connect With Us</h2>
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <h4>Phone</h4>
+                        <a href="tel:+353851273548">+353 851 273 548</a>
+                    </div>
+                    <div class="detail-item">
+                        <h4>Email</h4>
+                        <a href="mailto:info@rapidsites.eu">info@rapidsites.eu</a>
+                    </div>
+                    <div class="detail-item">
+                        <h4>Location</h4>
+                        <p>A67W3V9</p>
+                    </div>
+                    <div class="detail-item">
+                        <h4>Hours</h4>
+                        <p>Monday - Friday: 9am - 5pm</p>
+                        <p>Saturday & Sunday: Closed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Test The Heather & Stone</h4>
+                <p>Phone: <a href="tel:+353851273548">+353 851 273 548</a></p>
+                <p>Email: <a href="mailto:info@rapidsites.eu">info@rapidsites.eu</a></p>
+                <p>Location: A67W3V9</p>
+            </div>
+            <div class="footer-section">
+                <h4>Hours</h4>
+                <p>Monday to Friday: 9am - 5pm</p>
+                <p>Saturday & Sunday: Closed</p>
+            </div>
+            <div class="footer-section">
+                <p class="footer-tagline">Exceptional Irish Dining, Every Visit</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Test The Heather & Stone. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
